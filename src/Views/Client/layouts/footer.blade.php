@@ -20,7 +20,7 @@
           </div>
           <div class="col-6 col-lg-2">
             @php
-                $categories = (new \Ducan\Mvcoop\Models\Category)->getForMenu();
+                $categories = (new \Phuon\Asm1\Models\Category)->getForMenu();
             @endphp
             <h3 class="footer-heading">Categories</h3>
             <ul class="footer-links list-unstyled">
