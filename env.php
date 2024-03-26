@@ -7,3 +7,4 @@ define('DB_PASSWORD', '');
 define('DB_NAME', 'asm1');
 
 
+define('PATH_ROOT', __DIR__);
